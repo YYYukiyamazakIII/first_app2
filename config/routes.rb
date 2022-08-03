@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :post, only: :index
+  resources :posts, only: [:index, :new, :create]
 end
